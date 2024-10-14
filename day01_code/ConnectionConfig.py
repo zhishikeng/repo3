@@ -1,6 +1,7 @@
 from pymysql import Connection
 # Connection  就是Python语言与mysql之间的桥梁(通道)
 # 呵呵 你看我成功了把!!!
+# 你了不起
 connection_list = [] #连接池  容器
 for i in range(1,5):
     connection = Connection(
